@@ -13,7 +13,7 @@ result resq 1
 
 format db "%d", 0
 format_qword db "%lld", 0            ; Format pentru printf (QWORD semnat)
-message_result db "The sub of this two numbers is : ",0
+message_result db "The product of this two numbers is : ",0
 message_write_a db "Enter the value of a : ", 0
 message_write_b db "Enter the value of b : ", 0
 
