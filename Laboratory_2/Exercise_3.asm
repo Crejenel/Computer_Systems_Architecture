@@ -40,7 +40,7 @@ add esp, 4*2
 
 mov eax, dword[a]
 mov ebx, dword[b]
-imul ebx ; the result is now may be in << edx : eax >> or just << eax >>
+imul ebx ; now the result may be in << edx : eax >> or just << eax >>
          ; we need to verify in which case we are situated
          
 jno result_in_eax
