@@ -63,9 +63,9 @@ push dword format
 call [scanf]
 add esp, 4*2
 
-mov ax, [d]
-sub ax, [c]
-cwde
+movsx eax, word[d]
+movsx ebx, word[c]
+sub eax,ebx
 
 add [result],eax
 
