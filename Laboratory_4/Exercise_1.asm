@@ -156,7 +156,7 @@ mov eax,0
 continue :
 
 mov dl,byte[byte_1+ebx]
-shr dl , 2
+shr dl , 1
 and dl, 00000111b
 add ax,dx
 inc ebx
